@@ -1,0 +1,57 @@
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1170px;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+
+  &__logg{
+    width: 118.97px;
+    height: 45px;
+  }
+
+  &__nav{
+    max-width: 545px;
+  }
+
+  &__list{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+  }
+
+  &__link{
+    text-decoration: none;
+    color: var(--color-brand-white);
+    transition: color .2s;
+
+    &:hover{
+      color: var(--color-brand-primary);
+    }
+  }
+
+  &__account{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+
+    &__sign-in{
+      font-weight: 700;
+      text-decoration: none;
+      color: var(--color-brand-white);
+      transition: color .2s;
+
+      &:hover{
+        color: var(--color-brand-primary);
+      }
+    }
+
+    &__btn{
+      width: 176px;
+      height: 50px;
+      font-weight: 700;
+    }
+  }
+}

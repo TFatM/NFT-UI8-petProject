@@ -1,0 +1,47 @@
+body{
+  background-color: var(--color-secondary-black);
+}
+
+*{
+  font-family: "Exo 2";
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 20px;
+  margin: 0;
+}
+
+h1{
+  font-family: "Exo 2";
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 46px;
+  color: var(--color-brand-white);
+}
+
+h2{
+  font-family: "Exo 2";
+  font-size: 60px;
+  font-weight: 600;
+  line-height: 75px;
+  color: var(--color-brand-white);
+}
+
+h4{
+  font-family: "Exo 2";
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  color: var(--color-brand-white);
+}
+
+h5{
+  font-family: "Exo 2";
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 23.7px;
+  color: var(--color-brand-white);
+}
+
+li{
+  list-style: none;
+}

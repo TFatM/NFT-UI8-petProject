@@ -1,0 +1,123 @@
+.explore{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 1256px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+
+  &__container{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1256px;
+    width: 100%;
+    margin-bottom: 52px;
+
+    &__title{
+      font-size: 50px;
+      line-height: 60px;
+    }
+
+    &__btn{
+      width: 155px;
+      height: 65px;
+      font-size: 22px;
+      line-height: 26.4px;
+    }
+  }
+
+  &__cards-container{
+    display: flex;
+    // flex-wrap: wrap;
+    gap: 30px;
+    width: 100%;
+  }
+
+  &__card{
+    display: flex;
+    flex-direction: column;
+    max-width: 370px;
+    width: 100%;
+    max-height: 569px;
+    height: 100%;
+    padding: 20px 25px 25px 25px;
+    border-radius: 12px;
+    background-color: var(--color-brand-gray);
+
+    &__top-section{
+      display: flex;
+      align-items: center;
+      margin-bottom: 38px;
+
+      &__img{
+        width: 50px;
+        height: 50px;
+        margin-right: 10px;
+      }
+
+      &__name{
+        margin-right: auto;
+      }
+
+      &__dotes{
+        border: none;
+        background-color: transparent;
+        cursor: pointer;
+      }
+    }
+
+    &__nft-img{
+      // max-width: 320px;
+      // width: 100%;
+      // max-height: 262px;
+      // height: 100%;
+      object-fit: fill;
+    }
+
+    &__date{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 130px;
+      height: 40px;
+      border-radius: 30px;
+      margin-top: 15px;
+      margin-bottom: 12px;
+      background-color: var(--color-brand-blue);
+      font-size: 18px;
+      line-height: 21.6px;
+    }
+
+    &__title{
+      font-size: 26px;
+      line-height: 31.2px;
+    }
+
+    &__bid{
+      font-size: 18px;
+      line-height: 21.6px;
+      color: var(--color-brand-white);
+    }
+
+    &__bottom-section{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-top: 6.16px;
+
+      &__bid-number{
+        font-size: 20px;
+        line-height: 24px;
+        color: var(--color-brand-primary);
+      }
+
+      &__btn{
+        width: 126px;
+        height: 45px;
+        font-size: 16px;
+        line-height: 19.2px;
+      }
+    }
+  }
+}

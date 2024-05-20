@@ -1,0 +1,13 @@
+.button{
+    border-radius: 60px;
+    border: 1px solid var(--color-brand-primary);
+    background-color: var(--color-brand-primary);
+    cursor: pointer;
+    color: var(--color-brand-blue);
+    transition: background-color .2s, color .2s;
+
+    &:hover {
+      background-color: var(--color-secondary-black);
+      color: var(--color-brand-white)
+    }
+  }
