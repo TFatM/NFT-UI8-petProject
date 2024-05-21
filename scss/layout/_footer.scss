@@ -1,0 +1,105 @@
+.footer{
+  display: flex;
+  flex-direction: column;
+  max-width: 1920px;
+  width: 100%;
+
+  &__top-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    background: linear-gradient(359deg, var(--color-brand-gray) 81%, rgba(0, 250, 255, 0) 81%, rgba(0, 0, 0, 0) 100%);
+    margin-right: auto;
+    margin-left: auto;
+
+    &__QR-container{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 30px;
+      padding: 40px 37px 44px;
+      border-top: 5px solid var(--color-brand-primary);
+      border-right: 5px solid var(--color-brand-primary);
+      border-bottom: 10px none;
+      border-left: 5px solid var(--color-brand-primary);
+      border-radius: 5px 5px 0px 5px;
+
+      &__QR-code{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 204px;
+        height: 201px;
+        background-color: var(--color-brand-white);
+        border-radius: 12px;
+      }
+
+      &__text{
+        font-size: 26px;
+        line-height: 31.2px;
+        color: var(--color-brand-white);
+      }
+    }
+
+        &__download-container{
+          display: flex;
+          flex-direction: column;
+          gap: 39px;
+
+          &__text{
+            font-size: 34px;
+            line-height: 44px;
+
+            & span{
+              font-weight: 600;
+              font-size: 34px;
+              line-height: 44px;
+            }
+          }
+          
+          &__pics-wrapper{
+            display: flex;
+            gap: 11px;
+          }
+        }
+
+        &__buttons{
+          display: flex;
+          gap: 20px;
+        }
+
+        &__btn{
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          position: relative;
+          bottom: -91px;
+          width: 140px;
+          height: 170px;
+          background-color: var(--color-brand-white);
+          border: none;
+          border-radius: 80px 80px 0px 0px;
+          cursor: pointer;
+        }
+
+        &__icon{
+          // width: 34px;
+          // height: 37px;
+          margin-bottom: 19px;
+        }
+
+        &__stars{
+          color: var(--color-brand-star);
+          margin-bottom: 11px;
+        }
+
+        &__rating{
+          font-weight: 800;
+          font-size: 16px;
+          line-height: 15px;
+          color: var(--color-brand-black);
+        }
+  }
+}
