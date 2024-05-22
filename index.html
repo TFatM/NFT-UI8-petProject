@@ -4,17 +4,17 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="/css/main.min.css">
-  <title>Document</title>
+  <title>NFT UI8</title>
 </head>
 <body>
   <header class="header">
     <img class="header__logo" src="./img/Logo.svg">
     <nav class="header__nav">
       <ul class="header__list">
-        <li><a class="header__link" href="#">Explore</a></li>
-        <li><a class="header__link" href="#">Following</a></li>
-        <li><a class="header__link" href="#">How it Works</a></li>
-        <li><a class="header__link" href="#">Community</a></li>
+        <li><a class="header__link" href="#explore">Explore</a></li>
+        <li><a class="header__link" href="#following">Following</a></li>
+        <li><a class="header__link" href="/pages/HowItWorks.html">How it Works</a></li>
+        <li><a class="header__link" href="#community">Community</a></li>
       </ul>
     </nav>
       <ul class="header__account">
@@ -25,7 +25,7 @@
 
   <main>
 
-    <section class="hero-section">
+    <section class="hero-section" id="about">
       <div class="hero-section__container">
         <h2 class="hero-section__title">Create, Explore
           & Collect Digital
@@ -153,7 +153,7 @@
       </div>
     </section>
 
-    <section class="explore">
+    <section class="explore" id="explore">
       <div class="explore__container">
         <h2 class="explore__container__title">Explore Categories</h2>
         <button class="explore__container__btn button" type="button">See All</button>
@@ -213,7 +213,7 @@
       </div>
       </section>
 
-      <section class="news">
+      <section class="news" id="following">
       <div class="news__wrapper">
         <div class="news__main">
           <div class="news__pic-line">
@@ -235,7 +235,7 @@
       </div>
       </section>
       
-      <section class="community">
+      <section class="community" id="community">
         <div class="community__big-cirle">
           <div class="community__middle-cirle">
             <div class="community__small-cirle">
@@ -289,7 +289,33 @@
             </div></button>
           </div>
         </div>
-
+    </div>
+    <div class="footer__main">
+      <div class="footer__main__join-section">
+        <a href="/index.html">
+          <img class="footer__main__join-section__logo" src="./img/Logo.svg">
+        </a>
+        <h2 class="footer__main__join-section__title">Join NFTs Community</h2>
+        <div class="footer__main__join-section__social">
+          <a class="footer__main__join-section__social__icon"><img src="./img/footer/google-social-icon.svg"></a>
+          <a class="footer__main__join-section__social__icon"><img src="./img/footer/twitter-social-icon.svg"></a>
+          <a class="footer__main__join-section__social__icon"><img src="./img/footer/instagram-social-icon.svg"></a>
+          <a class="footer__main__join-section__social__icon"><img src="./img/footer/linkedin-social-icon.svg"></a>
+          <a class="footer__main__join-section__social__icon"><img src="./img/footer/youtube-social-icon.svg"></a>
+        </div>
+      </div>
+      <nav class="footer__main__nav">
+        <h2 class="footer__main__nav__title">Community</h2>
+        <ul class="footer__main__nav__list">
+          <li><a class="footer__main__nav__link" href="#about">About</a></li>
+          <li><a class="footer__main__nav__link" href="#">Blog</a></li>
+          <li><a class="footer__main__nav__link" href="#">RARI Token</a></li>
+          <li><a class="footer__main__nav__link" href="#">Suggest Features</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="footer__copyright">
+      <h4 class="footer__copyright__text">© 2022 NFTs @ All Rights Reserved</h4>
     </div>
   </footer>
 </body>

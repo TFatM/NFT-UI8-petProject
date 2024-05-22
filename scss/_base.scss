@@ -2,6 +2,10 @@ body{
   background-color: var(--color-secondary-black);
 }
 
+html{
+  scroll-behavior: smooth;
+}
+
 *{
   font-family: "Exo 2";
   font-size: 18px;
